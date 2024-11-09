@@ -9,10 +9,6 @@ function lastmodified() {
     document.querySelector('#lastModified').textContent = "Last Modification: " + document.lastModified.toString();
 }
 
-
-
-
-
 /* Current date in footer */
 footerDate();
 
