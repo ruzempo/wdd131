@@ -3,12 +3,87 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html document test</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Rubén Zempoalteca Torres - course assignment portal - home page">
+    <meta name="author" content="Rubén Zempoalteca Torres">
+    <title>Rubén Zempoalteca- WDD 131 - Dynamic Web Fundamentals - Rubén Zempoalteca</title>
+
+    <!-- Link to the icons -->
+    <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+    <!--Google Fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
 </head>
 
 <body>
-    <p>Html document test by Ruben Zempoalteca</p>
+
+    <header>
+        <img id="me-png" src="images/me.png" alt="Me">
+        <h1>Ruben Zempoalteca Torres</h1>
+    </header>
+
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="https://www.linkedin.com/in/ruben-zempoalteca-torres/?locale=en_US"
+                    target="_blank">LinkedIn</a></li>
+            <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/explanation?lang=eng"
+                    target="_blank">Scripture </a></li>
+            <li><a href="">Final Project</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <section class="card" id="aboutMe">
+
+            <h3>About Me</h3>
+
+            <div class="sections">
+                <p>
+                    My name is Rubén Zempoalteca, I have been married for 13 years. In 2021 I finished a Bachelor degree
+                    in accountant, but I am passionate about programming, a fan of simplicity and intuitive design in
+                    software development. In my
+                    experience, I have participated in various projects, from their analysis to their implementation
+                    using current
+                    technologies for programming desktop and web applications. During this time, my software development
+                    has been
+                    recognized as simple to use, giving a satisfying experience to the end-user.
+                </p>
+            </div>
+        </section>
+
+        <section class="card" id="webResources">
+            <h3>Web Dev Resources</h3>
+            <div class="sections">
+                <ul>
+                    <li><a href="week01/chamber-site-plan.html">GAM Companies Chamber of Commerce Site Plan</a></li>
+                    <li><a href="chamber/index.html">GAM Companies Chamber of Commerce Portal</a></li>
+                </ul>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p id="nameCity">&copy;<span id="year"></span> Ruben Zempoalteca Torres | México <img id="flagMX"
+                src="images/flagMX.png" alt="my country flag"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <!--the copyright year and the date the document was last modified-->
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/localStorage.js"></script>
 </body>
 
 </html>
