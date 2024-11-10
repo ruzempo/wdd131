@@ -10,11 +10,7 @@
     <meta name="author" content="Rubén Zempoalteca Torres">
     <title>Rubén Zempoalteca- WDD 131 - Dynamic Web Fundamentals - Rubén Zempoalteca</title>
 
-    <!-- Link to the icons -->
-    <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
-    <!--Google Fonts-->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <!--CSS files-->
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
@@ -23,47 +19,52 @@
 <body>
 
     <header>
-        <img id="me-png" src="images/me.png" alt="Me">
-        <h1>Ruben Zempoalteca Torres</h1>
+        <!-- Me pict and name as header -->
+        <div class="myPhoto">
+            <img id="me-png" src="images/me.png" alt="Me">
+            <h1>Rubén Zempoalteca Torres</h1>
+        </div>
+
+
+        <!-- menu -->
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com/in/ruben-zempoalteca-torres/?locale=en_US"
+                        target="_blank">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/explanation?lang=eng"
+                        target="_blank">Scripture </a></li>
+                <li><a href="">Final Project</a></li>
+            </ul>
+        </nav>
     </header>
-
-
-    <nav>
-        <ul class="navigation">
-            <li><a href="https://www.linkedin.com/in/ruben-zempoalteca-torres/?locale=en_US"
-                    target="_blank">LinkedIn</a></li>
-            <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/explanation?lang=eng"
-                    target="_blank">Scripture </a></li>
-            <li><a href="">Final Project</a></li>
-        </ul>
-    </nav>
 
 
 
     <main>
         <div class="container">
             <section class="card" id="aboutMe">
-                <h3>About Me</h3>
+                <h2>About Me</h2>
                 <div class="sections">
                     <p>
-                        My name is Rubén Zempoalteca, I have been married for 13 years. In 2021 I finished a Bachelor
-                        degree
-                        in accountant, but I am passionate about programming, a fan of simplicity and intuitive design
-                        in
-                        software development. In my
-                        experience, I have participated in various projects, from their analysis to their implementation
-                        using current
-                        technologies for programming desktop and web applications. During this time, my software
-                        development
-                        has been
-                        recognized as simple to use, giving a satisfying experience to the end-user.
+                        My name is Rubén Zempoalteca, I have been married for 13 years. I love cooking salads and roast
+                        meat on Saturdays.
+                        In the church my wife and I are stake auditors, she is also a second counselor in the relief
+                        society, and I am a young single adult teacher.
+                    </p>
+
+                    <p>
+                        In 2021 I finished my Bachelor's Degree in Accounting, but I am passionate about programming,
+                        a fan of simplicity and intuitive design in software development. In my experience,
+                        I have participated in various projects, from analysis to implementation using current
+                        technologies for desktop programming.
+                        I am currently creating a company to develop accounting software and provide tax services.
                     </p>
                 </div>
             </section>
 
             <section class="card" id="webResources">
-                <h3>Web Dev Resources</h3>
+                <h2>Web Dev Resources</h2>
                 <div class="sections">
                     <ul>
                         <li><a href="https://www.freecodecamp.org/espanol/news/10-comandos-de-git-que-todo-desarrollador-deberia-saber/"

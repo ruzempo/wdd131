@@ -1,15 +1,13 @@
-/*
-* {
-	border: 2px solid blue
-}
-*/
+/* * {
+    border: 2px solid blue
+} */
+
 
 body {
     /*Simple reset*/
     margin: 0;
     padding: 0;
 }
-
 
 
 main {
@@ -28,7 +26,9 @@ main {
     grid-row-end: 5;
 }
 
-
+#aboutMe p {
+    text-align: justify;
+}
 
 #webResources {
     grid-column-start: 2;
@@ -47,12 +47,34 @@ main {
 }
 
 
+header {
+    align-items: start;
+    justify-content: center;
+    background-color: rgb(0, 79, 112);
+    color: white;
+}
+
+header h1 {
+    display: block;
+}
+
+.myPhoto {
+    /* contain my photo and my name as a header */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#me-png {
+    height: 150px;
+}
 
 nav {
+
+    display: flex;
+    justify-content: center;
     background-color: black;
-    margin: 0 auto;
-    max-width: 100%;
-    font-size: larger;
+    font-size: x-large;
 }
 
 nav ul {
@@ -60,6 +82,10 @@ nav ul {
     padding: 0px 2px;
 }
 
+.navigation {
+    /* border-color: red; */
+    width: 100%;
+}
 
 nav a {
     display: block;
@@ -76,15 +102,6 @@ nav a:hover {
 }
 
 
-
-
-#me-png {
-
-    height: 150px;
-    /*     float: right;
-    margin-right: 25px; */
-}
-
 #flagMX {
     width: 60px;
     height: 30px;
@@ -92,27 +109,10 @@ nav a:hover {
 
 
 
-h3 {
+h2 {
     text-align: center;
     color: white;
 }
-
-
-
-
-header {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    background-color: rgb(0, 79, 112);
-    color: white;
-}
-
-header h1 {
-    padding: 4% 0%;
-    text-align: center;
-}
-
 
 
 #nameCity {
