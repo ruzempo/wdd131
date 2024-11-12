@@ -159,3 +159,13 @@ footer {
     padding: 5px;
     font-family: 'Lato', sans-serif;
 }
+
+@media only screen and (min-width: 800px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
