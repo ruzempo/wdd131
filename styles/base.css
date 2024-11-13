@@ -33,8 +33,8 @@ h2 {
 #aboutMe {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 #aboutMe p {
@@ -44,8 +44,16 @@ h2 {
 #webResources {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#learning {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
 }
 
 .card {

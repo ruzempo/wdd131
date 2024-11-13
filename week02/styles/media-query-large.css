@@ -1,0 +1,16 @@
+@media only screen and (min-width: 800px) {
+
+    /*Cuando es mayor a 800px el encabezado es negro con letra blanca
+      If the screen size is greater than 800px the heade background is black and the font is white */
+    header {
+        background-color: black;
+        color: white;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+
+
+}
