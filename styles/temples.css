@@ -1,3 +1,23 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+
+    border: 1px solid green;
+    text-align: center;
+    /*width: 400px;*/
+    height: 300px;
+
+    flex: 1 1 350px;
+    /*stretching*/
+    /*flex: 0 1 150px; not stretching*/
+    margin: 5px;
+}
+
+
 #flagMX {
     width: 60px;
     height: 30px;
