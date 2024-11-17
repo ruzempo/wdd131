@@ -26,14 +26,21 @@
 
     main {
         max-width: 100%;
+
+
+    }
+
+    #subtitle h2 {
+        text-align: center;
+        color: blue;
     }
 
     h1,
     h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
-    }
 
+    }
 
     .parent {
         max-width: 100%;
