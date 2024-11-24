@@ -1,0 +1,223 @@
+  /* * {
+      border: 2px solid blue
+  } */
+
+  /* body and main styles */
+  body {
+      /* simple reset */
+      margin: 0;
+      padding: 0;
+      /* base font of the page */
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+
+  main {
+      /* max-width: 1200px; */
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  /* small view styles */
+
+
+  /* header style */
+  header {
+
+      /* align header label and content */
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+
+      /* colors */
+      background-color: black;
+      color: white;
+  }
+
+  /* main content styles */
+  .hero {
+      width: 100%;
+  }
+
+  .hero img {
+      width: 100%;
+      height: auto;
+  }
+
+  .tabla {
+      /* Centramos tabla*/
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .tabla td:first-child {
+      /* Pseudo class to font bold of the first column */
+      text-align: right;
+      font-weight: bold;
+  }
+
+  .sections img {
+      width: 85px;
+      height: 85px;
+  }
+
+  #hheader {
+      display: flex;
+      justify-content: center;
+  }
+
+  #hheader p {
+      float: right;
+      visibility: hidden;
+  }
+
+  .card {
+      background-color: rgb(255, 206, 0);
+      /* border-radius: 0px 0px 15px 15px; */
+      padding: 15px;
+      margin: 5px;
+      height: auto;
+  }
+
+  /* footer styles */
+
+  #flagMX {
+      width: 60px;
+      height: 30px;
+  }
+
+  footer {
+      background-color: rgb(221, 0, 0);
+      color: white;
+      padding: 5px;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      text-align: center;
+  }
+
+  /* media queries */
+
+  /* medium view styles */
+  @media (min-width: 501px) and (max-width: 800px) {
+
+      header {
+          background-color: rgb(255, 206, 0);
+          color: black;
+      }
+
+      footer {
+          background-color: rgb(255, 206, 0);
+          color: rgb(221, 0, 0);
+      }
+
+      .card {
+          background-color: white;
+          /* box-shadow: 3px 3px 6px 6px rgb(255, 206, 0); */
+          box-shadow: 3px 3px 6px 6px rgb(248, 248, 245);
+          border-radius: 10px 10px 10px 10px;
+          padding: 15px;
+          height: auto;
+          margin-bottom: 18px;
+      }
+
+  }
+
+
+
+  /* large view styles   */
+  @media(min-width: 801px) {
+
+      header {
+          background-color: rgb(255, 0, 0);
+          color: white;
+      }
+
+      main {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          /* grid-template-rows: repeat(3, 1fr); */
+      }
+
+      .hero {
+          position: absolute;
+          max-width: 1200px;
+          height: max-content;
+          /* grid-column-start: 1; */
+          /* grid-column-end: 3; */
+          /* grid-row-start: 1;
+         grid-row-end: 1; */
+          /*  */
+      }
+
+      .card {
+
+          background-color: white;
+          border: 1px solid rgb(235, 235, 235);
+          opacity: 0.7;
+          font-size: small;
+
+      }
+
+      #Data {
+          width: 70%;
+          grid-column-start: 1;
+          grid-column-end: 2;
+          grid-row-start: 1;
+          grid-row-end: 2;
+          margin-top: 50px;
+      }
+
+      #Data h2 {
+          background-color: rgb(255, 206, 0);
+          height: 50px;
+
+      }
+
+      .sections img {
+          display: none;
+      }
+
+      #hheader {
+          background-color: rgb(221, 0, 0);
+      }
+
+      #hheader p {
+          visibility: visible;
+          font-size: large;
+          color: white;
+      }
+
+      h2 {
+          color: white;
+          font-weight: bold;
+      }
+
+      #Weather {
+          width: 70%;
+          grid-column-start: 3;
+          grid-column-end: 4;
+          grid-row-start: 1;
+          grid-row-end: 2;
+          margin-top: 150px;
+      }
+
+      footer {
+
+          position: fixed;
+          bottom: 0px;
+
+          max-width: 1200px;
+          width: 100%;
+          text-align: center;
+
+      }
+
+
+
+
+  }

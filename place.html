@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A country or place where you live or have visited or wish to visit.">
+    <meta name="author" content="Rubén Zempoalteca Torres">
+    <title>Black Forest - Germany</title>
+
+    <!-- Roboto and Lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- css files -->
+    <link rel="stylesheet" href="styles/place.css">
+
+    <title>Document</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>Black Forest Germany</h1>
+
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/blackforest-small.webp">
+                <source media="(max-width: 801px)" srcset="images/blackforest-medium.webp">
+                <img src="images/blackforest-large.webp" alt="Black Forest in Genrmany" width="1200" height="667">
+            </picture>
+        </div>
+        <!-- <div class="container"> -->
+        <section class="card" id="Data">
+            <h2>Data</h2>
+            <div class="sections">
+                <table class="tabla" id="info">
+                    <tr>
+                        <td class="colizq">
+                            Area:
+                        </td>
+                        <td>
+                            6.009 sq km
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colizq">
+                            Population:
+                        </td>
+                        <td>
+                            80,923
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colizq">
+                            Capital:
+                        </td>
+                        <td>
+                            Baden-Württemberg
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colizq">
+                            Languages:
+                        </td>
+                        <td>
+                            German
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colizq">
+                            Currency:
+                        </td>
+                        <td>
+                            Euro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colizq">
+                            Time Zone:
+                        </td>
+                        <td>
+                            UTC+1 (CET)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colizq">
+                            Calling Code:
+                        </td>
+                        <td>
+                            +49
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colizq">
+                            Internet TLD:
+                        </td>
+                        <td>
+                            .de
+                        </td>
+                    </tr>
+
+
+                </table>
+
+            </div>
+        </section>
+
+        <section class="card" id="Weather">
+            <div id="hheader">
+                <h2>Weather</h2>
+                <p>&#9925</p>
+            </div>
+
+
+            <div class="sections">
+                <img src="images/weather-icon.svg" alt="SVG file about weather" />
+                <table class="tabla">
+                    <tr>
+                        <td>
+                            Temperature:
+                        </td>
+                        <td>
+                            9 °C
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Conditions:
+                        </td>
+                        <td>
+                            Cloudy
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Wind:
+                        </td>
+                        <td>
+                            18 Km/h
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Wind Chill:
+                        </td>
+                        <td>
+                            9.8 °C
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </section>
+
+
+        <!-- </div> -->
+
+    </main>
+
+    <footer>
+        <p id="nameCity">&copy;<span id="year"></span> Ruben Zempoalteca Torres | México <img id="flagMX"
+                src="images/flagMX.png" alt="my country flag"></p>
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+<!-- js files -->
+<script src="scripts/place.js"></script>
+<script src="scripts/getdates.js" defer></script>
+
+</html>
