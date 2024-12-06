@@ -72,18 +72,22 @@ p {
 
 .primary {
   background-color: #006599;
+  color: #FDFAFD;
 }
 
 .secondary {
   background-color: #424242;
+  color: #EF6108;
 }
 
 .accent1 {
   background-color: #EF6108;
+  color: #EF6108;
 }
 
 .accent2 {
   background-color: #FDFAFD;
+  color: #006599;
 }
 
 p.colored {
