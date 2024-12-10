@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content=" Temple album - A picture album page that is responsive in small and larger views">
+    <meta name="author" content="Rubén Zempoalteca Torres">
+    <title>Temple Album filtered-temples</title>
+
+    <!--CSS files-->
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+
+    <!-- Roboto and Lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!-- menu -->
+        <nav>
+
+
+            <a id="menu" href="#"></a>
+            <div id="titulo">
+                <h1>Temple Album</h1>
+            </div>
+            <ul class="navigation">
+                <li><a href="#" id="all">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New </a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="subtitle">
+            <h2>Home</h2>
+        </div>
+        <div class="parent">
+            <!-- temples images -->
+        </div>
+
+    </main>
+
+    <footer>
+        <p id="nameCity">&copy;<span id="year"></span> Ruben Zempoalteca Torres | México <img id="flagMX"
+                src="images/flagMX.png" alt="my country flag"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <!-- JavaScript file -->
+    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+ /* * {
+     border: 2px solid blue
+ } */
+
+
+ body {
+     /*Simple reset*/
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', sans-serif;
+     font-weight: 300;
+     font-style: normal;
+ }
+
+ #titulo {
+     display: block;
+     float: left;
+     color: white;
+     margin-left: 25px;
+ }
+
+
+
+ main {
+     max-width: 600px;
+     /* Alinea el main */
+     margin: 0 auto;
+
+     display: block;
+
+     /*Alinea el contenido de main */
+     text-align: center;
+
+ }
+
+
+
+
+
+ /* Menu hamburguer */
+ nav {
+     display: flex;
+     justify-content: space-around;
+     background-color: black;
+     text-align: center;
+     font-size: 1.5rem;
+ }
+
+ nav ul {
+     list-style-type: none;
+     padding: 0px 2px;
+ }
+
+ nav a {
+     display: block;
+     color: white;
+     padding: 10px;
+     text-decoration: none;
+ }
+
+ nav a:hover {
+     border: 1px solid dodgerblue;
+     color: dodgerblue;
+     background-color: white;
+ }
+
+ .navigation {
+     list-style: none;
+     margin: 0 auto;
+     max-width: 760px;
+ }
+
+ .navigation li {
+     display: none;
+     white-space: nowrap;
+     width: 400px;
+     align-content: center;
+ }
+
+ #menu {
+     display: block;
+     /* font-size: 2rem; */
+     text-decoration: none;
+     padding: .5rem .75rem;
+     background-color: #eee;
+     color: #000;
+ }
+
+ #menu::before {
+     content: "≡";
+ }
+
+ .show li {
+     display: block;
+ }
+
+ #menu.show::before {
+     content: "X";
+ }
+
+ h1,
+ h2 {
+     font-family: 'Lato', sans-serif;
+     font-weight: 300;
+     font-style: normal;
+ }
+
+
+ /* .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+ /* .box {
+
+    border: 1px solid green;
+    text-align: center; */
+ /*width: 400px;*/
+ /* height: 300px;
+
+    flex: 1 1 350px; */
+ /*stretching*/
+ /*flex: 0 1 150px; not stretching*/
+ /* margin: 5px;
+} */
+
+
+ #flagMX {
+     width: 60px;
+     height: 30px;
+ }
+
+ #nameCity {
+     text-align: center;
+     padding: 8px;
+
+ }
+
+ #lastModified {
+     text-align: center;
+
+ }
+
+ footer {
+     background-color: rgb(0, 79, 112);
+     color: white;
+     padding: 5px;
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+ }

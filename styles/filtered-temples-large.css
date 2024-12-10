@@ -1,0 +1,127 @@
+@media only screen and (min-width: 601px) {
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding: 2rem;
+    }
+
+
+
+
+
+    /**/
+    #menu {
+        display: none;
+    }
+
+    main {
+        max-width: 100%;
+
+
+    }
+
+    #subtitle h2 {
+        text-align: center;
+        color: blue;
+    }
+
+    h1,
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+
+    }
+
+    .parent {
+        max-width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    /* picture grid */
+
+    .fig {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #row1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    #row2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    #row3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    #row4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    #row5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    #row6 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    #row7 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+    #row8 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+    #row9 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+
+    main h2 {
+        text-align: left;
+    }
+}
