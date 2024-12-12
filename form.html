@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creating an HTML form with a confirmation page.">
+    <meta name="author" content="Rubén Zempoalteca Torres">
+    <title>Product Review Form</title>
+
+    <!-- Roboto and Lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/form.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" class="formulario">
+            <fieldset>
+
+                <label for="productos" class="labelalone">Product Name</label>
+                <select id="productos" name="pname" required>
+                    <option value="" disabled>Select a Product ...</option>
+                    <option value="proda">Product A</option>
+                    <option value="prodb">Product B</option>
+                    <option value="prodc">Product C</option>
+                    <option value="prodd">Product D</option>
+                </select>
+
+
+                <fieldset>
+                    <legend>Overall Rating</legend>
+                    <label id="1"><input type="radio" name="orating" value="one" required>*</label>
+                    <label id="2"><input type="radio" name="orating" value="two" required>**</label>
+                    <label id="3"><input type="radio" name="orating" value="three" required>***</label>
+                    <label id="4"><input type="radio" name="orating" value="four" required>****</label>
+                    <label id="5"><input type="radio" name="orating" value="five" required>*****</label>
+                </fieldset>
+
+                <label class="labelalone">Date of Installation <input type="date" name="fecha" id="fecha" required></label>
+                
+                <label class="labelalone">Which features did you find usefull in the product?</label>
+                <fieldset>
+                    <legend>(Check all that apply)</legend>
+                    <label id="a"><input type="checkbox" name="durability" value="yes">Durability</label>
+                    <label id="b"><input type="checkbox" name="ease" value="yes">Ease of Use</label>
+                    <label id="c"><input type="checkbox" name="perform" value="yes">Performance</label>
+                    <label id="d"><input type="checkbox" name="design" value="yes">Design</label>
+                </fieldset>
+
+                <label class="labelalone">Written Review (Optional) <textarea name="wreview" rows="10"
+                        cols="50"></textarea>
+                </label>
+
+                <label class="labelalone">Your Name (Optional) <input type="text" id="uname" name="username"></label>
+
+                <div id="boton">
+                    <input type="submit" value="Post Review">
+                </div>
+
+
+
+            </fieldset>
+
+        </form>
+    </main>
+
+    <footer>
+        <p id="nameCity">&copy;<span id="year"></span> Ruben Zempoalteca Torres | México <img id="flagMX"
+                src="images/flagMX.png" alt="my country flag"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <!-- JavaScript file -->
+
+    <script src="scripts/getdates.js" defer></script>
+</body>
+
+</html>
