@@ -34,8 +34,8 @@
       margin: 0;
       position: absolute;
       left: 50%;
-      top: 40%;
-      transform: translateY(-50%, -50%);
+      top: 50%;
+      transform: translateY(-50%);
   }
 
   /* footer styles */
