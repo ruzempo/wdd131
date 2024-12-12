@@ -98,16 +98,35 @@
       display: flex;
       justify-content: center;
       margin-top: 20px;
-      border-top: 1px solid #ddd ;
-      padding: 15px ;
+      border-top: 1px solid #ddd;
+      padding: 15px;
   }
+
+  .formulario input:required {
+      border-bottom: solid 4px red;
+  }
+
+  .formulario input:required:valid {
+      border-bottom: solid 4px green;
+  }
+
+
+  .formulario select:required {
+      border-bottom: solid 4px red;
+
+  }
+
+  .formulario select:required:valid {
+      border-bottom: solid 4px green;
+  }
+
 
   /* footer styles */
 
-  #flagMX {
+  /* #flagMX {
       width: 60px;
       height: 30px;
-  }
+  } */
 
   footer {
       background-color: rgb(0, 79, 112);
@@ -117,6 +136,3 @@
       font-weight: 700;
       text-align: center;
   }
-
-
-  

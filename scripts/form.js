@@ -27,3 +27,20 @@ const products = [
         averagerating: 5.0
     }
 ];
+
+
+// Call function to fill products
+fillproducts(products);
+
+
+// function to fill the select with the array content
+function fillproducts(listaP) {
+
+    for (const producto of listaP) {
+        const opcion = document.createElement("option");
+        opcion.value = producto.id;
+        opcion.text = producto.name;
+        document.querySelector("#sproductos").appendChild(opcion);
+    }
+
+}

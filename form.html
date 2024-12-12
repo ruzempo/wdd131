@@ -27,14 +27,16 @@
         <form method="get" action="review.html" class="formulario">
             <fieldset>
 
-                <label for="productos" class="labelalone">Product Name</label>
-                <select id="productos" name="pname" required>
+                <label for="sproductos" class="labelalone">Product Name</label>
+                <select id="sproductos" name="pname" required>
                     <option value="" disabled>Select a Product ...</option>
-                    <option value="proda">Product A</option>
+
+                </select>
+
+                <!-- <option value="proda">Product A</option>
                     <option value="prodb">Product B</option>
                     <option value="prodc">Product C</option>
-                    <option value="prodd">Product D</option>
-                </select>
+                    <option value="prodd">Product D</option> -->
 
 
                 <fieldset>
@@ -46,8 +48,9 @@
                     <label id="5"><input type="radio" name="orating" value="five" required>*****</label>
                 </fieldset>
 
-                <label class="labelalone">Date of Installation <input type="date" name="fecha" id="fecha" required></label>
-                
+                <label class="labelalone">Date of Installation <input type="date" name="fecha" id="fecha"
+                        required></label>
+
                 <label class="labelalone">Which features did you find usefull in the product?</label>
                 <fieldset>
                     <legend>(Check all that apply)</legend>
@@ -81,7 +84,7 @@
     </footer>
 
     <!-- JavaScript file -->
-
+    <script src="scripts/form.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
 </body>
 
