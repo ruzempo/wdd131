@@ -1,0 +1,32 @@
+
+.contenedorabout{
+    display: block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 15px;
+    margin: 0px 15px;
+
+}
+
+.content h2{
+    margin: 0 auto;
+    width: 80%;
+    color: #FDFAFD;
+    background-color: #628203;
+    border-radius: 10px;
+    margin-top: 35px;
+    border: 1px solid #628203;
+    padding: 8px;
+    box-shadow: 2px 5px #424242;
+    
+}  
+
+.card{
+    border: 1px solid #628203;
+    padding: 15px;
+    margin:-5px;
+
+    
+}

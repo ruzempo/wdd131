@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - ContaKodex Firm Website - Accounting Firm final Project.">
+    <meta name="author" content="Rubén Zempoalteca Torres">
+    <title>ContaKodex Firm Website</title>
+
+    <!--CSS files-->
+    <link rel="stylesheet" href="styles/plantilla.css">
+    <link rel="stylesheet" href="styles/plantilla-large.css">
+    <link rel="stylesheet" href="styles/aboutus.css">
+</head>
+
+<body>
+    <header>
+        <!-- menu -->
+        <nav>
+            <a id="menu" href="#"></a>
+            <div id="titulo">
+                <h1>C<span class="letracolor">o</span>ntaK<span class="letracolor">o</span>dex</h1>
+            </div>
+            <ul class="navigation">
+                <li><a href="" target="_blank">About Us</a></li>
+                <li><a href="" target="_blank">Services</a></li>
+                <li><a href="" target="_blank">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="hero">
+            <div id="hero-box">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="images/chica.webp">
+                    <source media="(max-width: 800px)" srcset="images/mediana.webp">
+                    <img id="hero-img" src="images/grande.webp" alt="images of office workers">
+                </picture>
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Get a free consultation</h1>
+                <h4>We are an accounting firm dedicated to solving the accounting and tax problems of our clients..</h4>
+                <div class="button-box">
+                    <a class="book" href="rates.html">Book now</a>
+                </div>
+            </section>
+        </div>
+
+        <!-- Mision -->
+        <div class="contenedorabout">
+            <div class="content" id="mision">
+                <h2>Business Mission</h2>
+                <div class="card">
+                    <p>
+                        Provide solutions to the accounting and tax requirements of individuals and legal entities,
+                        through advice and implementation of personalized strategies that support them in a reliable and
+                        timely manner, and that contribute to better decision-making and growth, strengthening and
+                        permanence of our clients in the market</p>
+                </div>
+            </div>
+
+            <div class="content" id="differ">
+                <h2>Differentiator in the market</h2>
+                <div class="card">
+                    <p>
+                        Free diagnosis of the client's accounting and/or tax situation, as well as the interpretation of
+                        the status and its possible solution.</p>
+                </div>
+            </div>
+
+            <div class="content" id="benefits">
+                <h2>Benefits</h2>
+                <div class="card">
+                    <p>
+                        We give you personalized attention, we solve your doubts through natural language, our service
+                        is based on close collaboration, cordiality, confidentiality and legality with the client.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div id="direccion" class="ubicacion">
+            <p>Pedro Nolasco 63,</p>
+            <p>Cuautepec,</p>
+            <p>Gustavo A. Madero, 07100, CDMX.</p>
+        </div>
+        <div id="lugar" class="ubicacion">
+            <p>Tel. 55 3366 3660</p>
+            <p id="nameCity">&copy;<span id="year"></span> Copyright Rubén Zempoalteca Torres | México </p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+
+    <!--the copyright year and the date the document was last modified-->
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/plantilla.js"></script>
+
+</body>
+
+</html>
