@@ -1,5 +1,4 @@
-
-.contenedorabout{
+.contenedorabout {
     display: block;
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -10,7 +9,7 @@
 
 }
 
-.content h2{
+.content h2 {
     margin: 0 auto;
     width: 80%;
     color: #FDFAFD;
@@ -20,13 +19,77 @@
     border: 1px solid #628203;
     padding: 8px;
     box-shadow: 2px 5px #424242;
-    
-}  
 
-.card{
+}
+
+.card {
     border: 1px solid #628203;
     padding: 15px;
-    margin:-5px;
+    margin: 5px;
+}
 
-    
+@media screen and (min-width: 600px) {
+
+    .contenedorabout {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+    }
+
+    #mision {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 1;
+    }
+
+    #differ {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 2;
+    }
+
+    #benefits {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row: 2;
+    }
+
+    .card {
+        border: none;
+    }
+
+    #mision h2 {
+        color: #FDFAFD;
+        background-color: #006599;
+        width: 40%;
+        box-shadow: none;
+        opacity: .8;
+    }
+
+    .card {
+        font-size: x-large;
+    }
+
+    #differ,
+    #benefits {
+        color: #FDFAFD;
+        background-color: #EF6108;
+        box-shadow: none;
+        border-bottom: 1px solid #006599;
+    }
+
+    #differ h2 {
+        box-shadow: none;
+        border: none;
+        background-color: #EF6108;
+        
+    }
+
+    #benefits h2 {
+        box-shadow: none;
+        border: none;
+        background-color: #EF6108;
+    }
+
+
 }

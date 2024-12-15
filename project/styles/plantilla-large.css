@@ -43,9 +43,31 @@
 
     }
 
-    #subtitle h2 {
+    /* #subtitle h2 {
         text-align: center;
         color: blue;
+    } */
+
+    .home-title{
+        color: #EF6108;
+        
+
+    }
+
+    #hero-msg{
+        font-size: x-large;
+        font-weight: bolder;
+        border: 1px solid #FDFAFD;
+        background-color:#FDFAFD ;
+        opacity: 0.8;
+        margin-top: 150px;
+    }
+
+    #hero-msg h4{
+        color: #006599;
+        font-weight: bolder;
+        font-size:large;
+        padding: 8px;
     }
 
     h1,
@@ -54,6 +76,8 @@
         font-weight: 700;
 
     }
+
+
 
     footer{
         display: grid;
